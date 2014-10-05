@@ -1,0 +1,27 @@
+# Xcode
+build/*
+!default.xcworkspace
+!project.xcworkspace
+UIDynamicExampleSwift.xcodeproj/project.xcworkspace/xcuserdata
+UIDynamicExampleSwift.xcodeproj/xcuserdata
+UIDynamicExampleSwift.xcworkspace/xcuserdata
+UIDynamicExampleSwift.xcworkspace/xcshareddata/UIDynamicExampleSwift.xccheckout
+
+# Artifacts
+*.dSYM.zip
+*.ipa
+*.log
+*.out
+*.tar.gz
+
+# Pods
+Pods
+
+# Tests
+tests
+
+# OS X
+.DS_Store
+
+# Idea Products
+.idea

@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		39C507CC19E0D23B002C55A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C507CB19E0D23B002C55A5 /* AppDelegate.swift */; };
 		39C507CE19E0D23B002C55A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C507CD19E0D23B002C55A5 /* ViewController.swift */; };
-		39C507D119E0D23B002C55A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C507CF19E0D23B002C55A5 /* Main.storyboard */; };
 		39C507D319E0D23B002C55A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C507D219E0D23B002C55A5 /* Images.xcassets */; };
-		39C507D619E0D23B002C55A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C507D419E0D23B002C55A5 /* LaunchScreen.xib */; };
 		39C507E219E0D23B002C55A5 /* UIDynamicExampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C507E119E0D23B002C55A5 /* UIDynamicExampleSwiftTests.swift */; };
+		BD84575828A4F0B4DB5C3D1A /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD84507237A79809A7A919BB /* BallView.swift */; };
+		BD84580CCF8FB8EA58ADA357 /* GravityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD84586ADC4E7DE89B50C675 /* GravityView.swift */; };
+		BD8458CDA50679DB933ED6EC /* GravityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8459CC30E69709B5CD4385 /* GravityViewController.swift */; };
+		BD845D7E03C87B80F68BDB5B /* BaseViewWithBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD845A53CCFD36CA8F70216A /* BaseViewWithBall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +32,14 @@
 		39C507CA19E0D23B002C55A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C507CB19E0D23B002C55A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39C507CD19E0D23B002C55A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39C507D019E0D23B002C55A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39C507D219E0D23B002C55A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		39C507D519E0D23B002C55A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		39C507DB19E0D23B002C55A5 /* UIDynamicExampleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDynamicExampleSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C507E019E0D23B002C55A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C507E119E0D23B002C55A5 /* UIDynamicExampleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDynamicExampleSwiftTests.swift; sourceTree = "<group>"; };
+		BD84507237A79809A7A919BB /* BallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
+		BD84586ADC4E7DE89B50C675 /* GravityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravityView.swift; sourceTree = "<group>"; };
+		BD8459CC30E69709B5CD4385 /* GravityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravityViewController.swift; sourceTree = "<group>"; };
+		BD845A53CCFD36CA8F70216A /* BaseViewWithBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewWithBall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,9 @@
 			children = (
 				39C507CB19E0D23B002C55A5 /* AppDelegate.swift */,
 				39C507CD19E0D23B002C55A5 /* ViewController.swift */,
-				39C507CF19E0D23B002C55A5 /* Main.storyboard */,
 				39C507D219E0D23B002C55A5 /* Images.xcassets */,
-				39C507D419E0D23B002C55A5 /* LaunchScreen.xib */,
 				39C507C919E0D23B002C55A5 /* Supporting Files */,
+				BD845E69AC6CA7F144A36FB1 /* Views */,
 			);
 			path = UIDynamicExampleSwift;
 			sourceTree = "<group>";
@@ -110,6 +113,17 @@
 				39C507E019E0D23B002C55A5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD845E69AC6CA7F144A36FB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD84586ADC4E7DE89B50C675 /* GravityView.swift */,
+				BD8459CC30E69709B5CD4385 /* GravityViewController.swift */,
+				BD845A53CCFD36CA8F70216A /* BaseViewWithBall.swift */,
+				BD84507237A79809A7A919BB /* BallView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39C507D119E0D23B002C55A5 /* Main.storyboard in Resources */,
-				39C507D619E0D23B002C55A5 /* LaunchScreen.xib in Resources */,
 				39C507D319E0D23B002C55A5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +226,10 @@
 			files = (
 				39C507CE19E0D23B002C55A5 /* ViewController.swift in Sources */,
 				39C507CC19E0D23B002C55A5 /* AppDelegate.swift in Sources */,
+				BD84580CCF8FB8EA58ADA357 /* GravityView.swift in Sources */,
+				BD8458CDA50679DB933ED6EC /* GravityViewController.swift in Sources */,
+				BD845D7E03C87B80F68BDB5B /* BaseViewWithBall.swift in Sources */,
+				BD84575828A4F0B4DB5C3D1A /* BallView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +250,6 @@
 			targetProxy = 39C507DC19E0D23B002C55A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		39C507CF19E0D23B002C55A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39C507D019E0D23B002C55A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		39C507D419E0D23B002C55A5 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39C507D519E0D23B002C55A5 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		39C507E319E0D23B002C55A5 /* Debug */ = {
