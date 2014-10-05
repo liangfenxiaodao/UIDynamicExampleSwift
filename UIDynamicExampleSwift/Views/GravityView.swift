@@ -13,14 +13,10 @@ public class GravityView : BaseViewWithBall {
     required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-
-    override init(){
-        super.init()
-        self.addGravity()
-    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+                self.addGravity()
     }
     
     func addGravity(){

@@ -9,14 +9,10 @@ public class BaseViewWithBall : UIView{
         super.init(coder: aDecoder)
     }
     
-    override init(){
-        super.init()
-        self.animator = UIDynamicAnimator(referenceView: self)
-        self.buildBall()
-    }
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
+        self.animator = UIDynamicAnimator(referenceView: self)
+        self.buildBall()
     }
     
     func buildBall(){

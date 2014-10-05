@@ -12,6 +12,6 @@ import UIKit
 public class GravityViewController : UIViewController {
     
     override public func viewDidLoad() {
-        self.view = GravityView()
+        self.view = GravityView(frame: CGRectZero)
     }
 }
