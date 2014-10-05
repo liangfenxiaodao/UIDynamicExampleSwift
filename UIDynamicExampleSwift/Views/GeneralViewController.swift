@@ -37,6 +37,8 @@ public class GravityViewController : UIViewController {
                 self.view = GravityView(frame: CGRectZero)
             case .Collision:
                 self.view = CollisionView(frame: CGRectZero)
+            case .Attachment:
+                self.view = AttachmentView(frame: CGRectZero)
         }
     }
 }

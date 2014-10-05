@@ -11,4 +11,5 @@ import Foundation
 enum ViewNameEnum {
     case Gravity
     case Collision
+    case Attachment
 }

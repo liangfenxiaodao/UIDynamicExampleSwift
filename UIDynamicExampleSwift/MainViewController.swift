@@ -10,8 +10,8 @@ import UIKit
 
 class MainViewController: UITableViewController, UITableViewDelegate, UITableViewDataSource{
     
-    var titles: [String] = ["Gravity", "Collision"]
-    var classes : [ViewNameEnum] = [ViewNameEnum.Gravity, ViewNameEnum.Collision]
+    var titles: [String] = ["Gravity", "Collision", "Attachment"]
+    var classes : [ViewNameEnum] = [ViewNameEnum.Gravity, ViewNameEnum.Collision, ViewNameEnum.Attachment]
 
     override func viewDidLoad() {
         self.navigationItem.title = "Dynamic Behaviour"

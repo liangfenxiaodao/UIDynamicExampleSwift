@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3979363E19E0FF8700C12B6B /* AttachmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979363D19E0FF8700C12B6B /* AttachmentView.swift */; };
 		39C507CC19E0D23B002C55A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C507CB19E0D23B002C55A5 /* AppDelegate.swift */; };
 		39C507CE19E0D23B002C55A5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C507CD19E0D23B002C55A5 /* MainViewController.swift */; };
 		39C507D319E0D23B002C55A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C507D219E0D23B002C55A5 /* Images.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3979363D19E0FF8700C12B6B /* AttachmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentView.swift; sourceTree = "<group>"; };
 		39C507C619E0D23B002C55A5 /* UIDynamicExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDynamicExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C507CA19E0D23B002C55A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C507CB19E0D23B002C55A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				BD845A53CCFD36CA8F70216A /* BaseViewWithBall.swift */,
 				BD84507237A79809A7A919BB /* BallView.swift */,
 				39C507ED19E0D5D1002C55A5 /* CollisionView.swift */,
+				3979363D19E0FF8700C12B6B /* AttachmentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			files = (
 				39C507CE19E0D23B002C55A5 /* MainViewController.swift in Sources */,
 				39C507F519E0FC45002C55A5 /* ViewNameEnum.swift in Sources */,
+				3979363E19E0FF8700C12B6B /* AttachmentView.swift in Sources */,
 				39C507CC19E0D23B002C55A5 /* AppDelegate.swift in Sources */,
 				BD84580CCF8FB8EA58ADA357 /* GravityView.swift in Sources */,
 				BD8458CDA50679DB933ED6EC /* GeneralViewController.swift in Sources */,
