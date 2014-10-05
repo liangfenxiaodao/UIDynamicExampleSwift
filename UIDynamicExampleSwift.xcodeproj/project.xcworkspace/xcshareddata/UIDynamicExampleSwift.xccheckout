@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C5E93CE0-0D07-4D9D-B245-084853FA82D9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIDynamicExampleSwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF440630A035B4353734B222458A9BA045CA8613</key>
+		<string>github.com:xiaodao/UIDynamicExampleSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIDynamicExampleSwift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF440630A035B4353734B222458A9BA045CA8613</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:xiaodao/UIDynamicExampleSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF440630A035B4353734B222458A9BA045CA8613</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF440630A035B4353734B222458A9BA045CA8613</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIDynamicExampleSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

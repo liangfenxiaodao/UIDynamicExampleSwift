@@ -16,7 +16,7 @@ public class GravityView : BaseViewWithBall {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-                self.addGravity()
+        self.addGravity()
     }
     
     func addGravity(){

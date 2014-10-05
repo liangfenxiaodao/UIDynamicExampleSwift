@@ -8,9 +8,10 @@
 
 import UIKit
 
-class ViewController: UITableViewController, UITableViewDelegate, UITableViewDataSource{
+class MainViewController: UITableViewController, UITableViewDelegate, UITableViewDataSource{
     
-    var items: [String] = ["Gravity", "Collision", "Attachment", "Advanced Attachment", "Snap", "Push"]
+    var titles: [String] = ["Gravity", "Collision"]
+    var classes : [ViewNameEnum] = [ViewNameEnum.Gravity, ViewNameEnum.Collision]
 
     override func viewDidLoad() {
         self.navigationItem.title = "Dynamic Behaviour"
@@ -18,18 +19,18 @@ class ViewController: UITableViewController, UITableViewDelegate, UITableViewDat
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.items.count
+        return self.titles.count
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell
-        cell.textLabel?.text = items[indexPath.row]
+        cell.textLabel?.text = titles[indexPath.row]
         cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         return cell
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        var gravityViewController: GravityViewController = GravityViewController()
+        var gravityViewController: GravityViewController = GravityViewController(viewName: classes[indexPath.row], title: titles[indexPath.row])
         self.navigationController?.pushViewController(gravityViewController, animated: false)
     }
 }
